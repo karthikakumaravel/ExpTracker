@@ -1,8 +1,7 @@
 // const {MongoClient} = require('mongodb')
 
 // let db
-// function connectToDb(startServer) { //connection establishment // strtserver callback func aa act aagudhu
-//     // let db = 
+// function connectToDb(startServer) { //connection establishment // strtserver callback func aa act aagudhu 
 //     MongoClient.connect('mongodb://localhost:27017/ExpenseTracker')
 //     .then(function(client){ //async func aa handle pandradhuku na .then use pani irukken (also promise use pannala but here it is simple naala i use .then)
 //         db = client.db() //client.db() accessing db using client //after connect with client 
@@ -19,7 +18,7 @@
 
 // module.exports = {connectToDb, getDb}
 
-// //------------------------------------------------------------------------------------------------------------------------------------------------------
+// //------------------------------------------------------
 
 // const {MongoClient}=require('mongodb');
 // let db;
@@ -40,7 +39,7 @@
 
 // module.exports={connectToDb,getDb};
 
-// ----------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------
 
 const {MongoClient} = require('mongodb')
 
